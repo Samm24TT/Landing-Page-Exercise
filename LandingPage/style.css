@@ -4,6 +4,27 @@
   box-sizing: border-box;
 }
 
+body {
+  max-width: 1200px;
+  justify-content: center;
+  /* align-items: center; */
+  text-align: center;
+}
+
 header {
   display: flex;
+  justify-content: center;
+  align-items: center;
+  /* text-align: center; */
+  margin-top: 50px;
 }
+
+header .header-middle {
+  flex-direction: column;
+  margin: 30px;
+}
+
+/* header .header-middle .logo {
+  font-size: 100px;
+  margin-bottom: 70px;
+} */
