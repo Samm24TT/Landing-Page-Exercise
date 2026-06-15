@@ -30,20 +30,27 @@ header .header-middle {
 }
 
 .header-middle {
-  width: 200px;
+  width: 400px;
   margin: 0 100px;
+  text-align: center;
+  align-items: center;
 }
 
 .header-middle .title {
-  width: 250px;
   font-family:
     "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
     "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
-  font-size: 35px;
+  font-size: 20px;
   font-weight: 800;
   color: rgb(39, 38, 38);
 }
 
-.iamge img {
-  size: 30px;
+.header-text p {
+  width: 300px;
+  align-items: center;
+  text-align: center;
 }
+
+/* .image img {
+  size: 30px;
+} */
