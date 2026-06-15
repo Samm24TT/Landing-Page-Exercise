@@ -6,9 +6,9 @@
 
 body {
   max-width: 1200px;
-  justify-content: center;
+  /* justify-content: center; */
   /* align-items: center; */
-  text-align: center;
+  /* text-align: center; */
 }
 
 .logo {
@@ -31,9 +31,9 @@ header .header-middle {
 
 .header-middle {
   width: 400px;
-  margin: 0 100px;
-  text-align: center;
-  align-items: center;
+  /* margin: 0 100px; */
+  /* text-align: center;
+  align-items: center; */
 }
 
 .header-middle .title {
