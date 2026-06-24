@@ -125,5 +125,34 @@ main .images img {
 }
 
 main .main-texts {
-  margin: 20px;
+  /* margin: 20px; */
+  margin-top: 40px;
+  margin-bottom: 60px;
+  max-width: 500px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+  align-items: center;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.main-header p {
+  color: #63a6b7;
+  font-weight: 600;
+  margin: 10px 0;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+}
+
+.main-header h1 {
+  margin: 10px 0;
+  color: #28283d;
+  font-size: 36px;
+}
+
+.main-texts .main-paragraph {
+  color: #87879d;
+  line-height: 1.6;
+  margin-top: 20px;
 }
