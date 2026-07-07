@@ -82,6 +82,10 @@ header {
   height: auto;
 }
 
+.hero-image {
+  display: none;
+}
+
 main {
   display: flex;
   flex-direction: column;
@@ -170,8 +174,8 @@ main .main-texts {
 footer {
   position: relative;
   width: 100%;
-  /* left: 50%;
-  margin-left: -50vw; */
+  left: 50%;
+  margin-left: -50vw;
   font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
 }
 
@@ -221,14 +225,70 @@ footer .footer-page {
     display: flex;
     flex-wrap: wrap;
   }
+
+  .hero-image {
+    display: block;
+    border: 1px solid black;
+  }
+
   .header-middle {
     width: 100%;
-    order: 2;
+    /* order: 2; */
   }
 
   .image {
-    width: 45%;
-    order: 1;
+    display: none;
+  }
+
+  footer .footer-page {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .footer-left h1 br {
+    display: none;
+  }
+
+  .footer-middle {
+    margin: 15px 0;
+  }
+}
+
+/* Phone: 375px and below */
+@media (max-width: 375px) {
+  .hero-image img {
+    width: 360px;
+  }
+
+  .header-middle h1 {
+    font-size: 40px;
+    margin: 10px 0;
+  }
+
+  .header-text p {
+    font-size: 14px;
+    margin-bottom: 42px;
+  }
+
+  .header-text button {
+    margin: 8px 0;
+    width: 250px;
+  }
+
+  .header-text {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .landing-page .images {
     border: 1px solid black;
+    display: flex;
+    flex-wrap: wrap;
+  }
+
+  main .images img {
+    width: 40%;
   }
 }
