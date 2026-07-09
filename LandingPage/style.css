@@ -228,7 +228,6 @@ footer .footer-page {
 
   .hero-image {
     display: block;
-    border: 1px solid black;
   }
 
   .header-middle {
@@ -257,7 +256,8 @@ footer .footer-page {
 /* Phone: 375px and below */
 @media (max-width: 375px) {
   .hero-image img {
-    width: 360px;
+    width: 100%;
+    max-width: 360px;
   }
 
   .header-middle h1 {
@@ -283,7 +283,6 @@ footer .footer-page {
   }
 
   .landing-page .images {
-    border: 1px solid black;
     display: flex;
     flex-wrap: wrap;
   }
