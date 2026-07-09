@@ -85,5 +85,5 @@ Areas I want to continue focusing on:
 
 ## Author
 
-- Frontend Mentor - [@yourusername](https://www.frontendmentor.io/profile/yourusername)
-- GitHub - [@yourusername](https://github.com/yourusername)
+- Frontend Mentor - [https://www.frontendmentor.io/profile/Samm24TT](https://www.frontendmentor.io/profile/yourusername)
+- GitHub - [https://github.com/Samm24TT](https://github.com/yourusername)
