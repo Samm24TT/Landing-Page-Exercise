@@ -27,9 +27,19 @@ Users should be able to:
 - See hover states for all interactive elements throughout the page
 - Use the sample data provided in the design to flesh out the content
 
-### Screenshot
+### Screenshots
 
-![Desktop preview](./preview.jpg)
+**Desktop**
+
+![Desktop](./LandingPage/assets/screenshot/desktop.png)
+
+**Tablet**
+
+![Tablet](./LandingPage/assets/screenshot/tablet.png)
+
+**Mobile**
+
+![Mobile](./LandingPage/assets/screenshot/mobile.png)
 
 ### Links
 
